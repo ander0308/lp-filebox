@@ -1,0 +1,108 @@
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 2.4rem;
+  }
+
+  header .container nav ul {
+    margin-right: 5.4rem;
+  }
+
+  .s-hero .container .hero-cta {
+    max-width: 50rem;
+  }
+
+  .s-hero .container .hero-cta h1 {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  header .container nav .nav-login,
+  header .container nav ul {
+    display: none;
+  }
+  header .container nav .btn-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .s-hero .container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9rem;
+  }
+
+  .s-hero .container .hero-cta {
+    text-align: center;
+  }
+
+  .s-hero .container .hero-illustra {
+    max-width: 100%;
+    margin-top: 9rem;
+  }
+  .s-brands {
+    padding: 9rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .s-brands {
+    padding-top: 6rem;
+  }
+
+  .s-brands .container ul {
+    flex-wrap: wrap;
+    gap: 6rem;
+  }
+
+  .s-download .container {
+    flex-direction: column;
+  }
+  .s-download .container .box-right,
+  .s-download .container .box-left {
+    max-width: 100%;
+  }
+  .s-download .container .box-left {
+    text-align: center;
+    margin-bottom: 4.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 55%;
+  }
+  h1 {
+    font-size: 4.2rem;
+  }
+  header .logo {
+    max-width: 130px;
+  }
+  .s-hero .container .hero-cta h1 {
+    font-size: 3.6rem;
+    line-height: 5rem;
+  }
+
+  .s-hero .container .hero-cta h6 {
+    font-size: 1.6rem;
+    line-height: 3rem;
+  }
+
+  .s-hero .container .hero-cta a {
+    display: block;
+  }
+
+  .s-hero .container .hero-cta .btn-small-ghost {
+    margin-left: 0;
+    margin-top: 1.6rem;
+  }
+
+  .s-brands .container .title {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+  }
+}
