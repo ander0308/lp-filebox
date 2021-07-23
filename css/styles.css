@@ -40,6 +40,11 @@ header .container nav ul li a {
   font-weight: 600;
   font-size: 1.6rem;
   line-height: 2.4rem;
+  transition: all 0.3s;
+}
+
+header .container nav ul li a:hover {
+  color: var(--blue-primary-light);
 }
 
 header .container nav .nav-login a:first-child {
@@ -278,6 +283,10 @@ footer .container .f-top .f-right .f-box-nav ul li a {
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: var(--text);
+  transition: all 0.3s;
+}
+footer .container .f-top .f-right .f-box-nav ul li a:hover {
+  color: var(--white);
 }
 
 footer .container .f-bottom {

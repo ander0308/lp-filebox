@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/variable.css" />
     <link rel="stylesheet" href="./css/grid.css" />
     <link rel="stylesheet" href="./css/patterns.css" />
@@ -43,7 +44,7 @@
 
     <section class="s-hero">
       <div class="container">
-        <div class="hero-cta">
+        <div class="hero-cta" data-aos="fade-right" data-aos-duration="2000">
           <span>free trial for 1 month</span>
           <h1>All your necessary files in one place</h1>
           <h6>
@@ -53,14 +54,23 @@
           <a href="" class="btn-small">Download</a>
           <a href="" class="btn-small-ghost">Contact sales</a>
         </div>
-        <div class="hero-illustra">
+        <div
+          class="hero-illustra"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <img src="./img/Hero cards.svg" alt="Imagem Hero" />
         </div>
       </div>
     </section>
 
     <section class="s-brands">
-      <div class="container">
+      <div
+        class="container"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-delay="400"
+      >
         <p class="title">companies that we helped along the way</p>
 
         <ul>
@@ -74,7 +84,7 @@
 
     <section class="s-download">
       <div class="container">
-        <div class="box-left">
+        <div class="box-left" data-aos="zoom-in" data-aos-duration="1000">
           <h4>What is Filebox?</h4>
           <h6>
             Filebox is a great UI Kit for creating Saas landing pages in a
@@ -84,7 +94,12 @@
           <a href="" class="btn-small">Download</a>
         </div>
         <div class="box-right">
-          <div class="item-download">
+          <div
+            class="item-download"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-delay="300"
+          >
             <img src="./img/icon-01.svg" alt="Icone" />
             <div class="item-download-text">
               <h3>Your landing page companion</h3>
@@ -94,7 +109,12 @@
               </p>
             </div>
           </div>
-          <div class="item-download">
+          <div
+            class="item-download"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-delay="900"
+          >
             <img src="./img/icon-02.svg" alt="Icone" />
             <div class="item-download-text">
               <h3>Your landing page companion</h3>
@@ -104,7 +124,12 @@
               </p>
             </div>
           </div>
-          <div class="item-download">
+          <div
+            class="item-download"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-delay="1500"
+          >
             <img src="./img/icon-03.svg" alt="Icone" />
             <div class="item-download-text">
               <h3>Your landing page companion</h3>
@@ -121,27 +146,57 @@
     <section class="s-featured">
       <img src="./img/illustra-01.svg" alt="illustracao" />
       <div class="container">
-        <div class="img-featured">
+        <div
+          class="img-featured"
+          data-aos="fade-up-right"
+          data-aos-duration="1500"
+          data-aos-delay="300"
+        >
           <img src="./img/illustra-02.svg" alt="Illustra 02" />
         </div>
 
         <div class="featured-box-right">
-          <h4>Providing useful features for customers</h4>
-          <p>Great features for building your custom Saas landing page.</p>
+          <h4
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            Providing useful features for customers
+          </h4>
+          <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+            Great features for building your custom Saas landing page.
+          </p>
           <ul>
-            <li>
+            <li
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
               <img src="./img/icon-04.svg" alt="icone" />
               <span>Fully Customisable</span>
             </li>
-            <li>
+            <li
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
               <img src="./img/icon-04.svg" alt="icone" />
               <span>Free Google Fonts</span>
             </li>
-            <li>
+
+            <li
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="800"
+            >
               <img src="./img/icon-04.svg" alt="icone" />
               <span>Fully Responsive</span>
             </li>
-            <li>
+            <li
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="1100"
+            >
               <img src="./img/icon-04.svg" alt="icone" />
               <span>Light & Dark Theme</span>
             </li>
@@ -205,5 +260,11 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
